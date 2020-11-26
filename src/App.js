@@ -1,9 +1,9 @@
-
-
+import Map from './components/Map'
+ 
 function App() {
   return (
     <div className="App">
-      <h1>Wildfire tracker</h1>
+      <Map />
     </div>
   );
 }
