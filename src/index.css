@@ -12,3 +12,8 @@ map{
   width: 100vw;
   position: relative;
 }
+
+.location-marker{
+  color: red;
+  font-size: 2rem;
+}
