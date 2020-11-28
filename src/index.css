@@ -17,3 +17,11 @@ map{
   color: red;
   font-size: 2rem;
 }
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
