@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import GoogleMapReact from 'google-map-react';
 import LocationMarker from './LocationMarker';
+import LocationInfoBox from './LocationInfoBox'
 
 const Map = ({ eventData,center,zoom }) => {
 
