@@ -25,3 +25,25 @@ map{
   justify-content: center;
   min-height: 100vh;
 }
+
+.loaction-info{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.loaction-info ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.loaction-info ul li{
+  padding: 5px;
+}
