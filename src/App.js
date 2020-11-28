@@ -1,4 +1,5 @@
 import { useState,useEffect } from 'react'
+import Loader from './components/Loader'
 import Map from './components/Map'
  
 function App() {
@@ -19,8 +20,8 @@ function App() {
   },[])
 
   return (
-    <div className="App">
-      <Map />
+    <div>
+      { !loading ? <Map eventData={eventData} /> : <Loader /> }
     </div>
   );
 }
